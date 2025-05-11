@@ -51,10 +51,12 @@ Após a configuração, foi realizado alguns testes para verificar se os hooks e
 
 Foi feito um commit para testar a execução do hook `pre-commit`. O build foi executado antes do commit ser finalizado, verificando a qualidade do código.
 
+**Teste com erro**
 <p align="center">
   <img src="/img/pre-commit-erro.png" width="400" />
 </p>
 
+**Teste com sucesso**
 <p align="center">
   <img src="/img/pre-commit-sucesso.png" width="400" />
 </p>
