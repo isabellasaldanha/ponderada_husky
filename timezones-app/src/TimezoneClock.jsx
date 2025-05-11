@@ -7,7 +7,7 @@ const TimezoneClock = ({ timezone, city }) => {
     const interval = setInterval(() => {
       const date = new Date();
       const localTime = date.toLocaleString('en-US', { timeZone: timezone });
-      setTime(localTime)
+      setTime(localTime);
     }, 1000);
 
     return () => clearInterval(interval);
