@@ -49,6 +49,7 @@ Foi feito um commit para testar a execução do hook `pre-commit`. O build foi e
 
 ![Teste de pré-commit com erro](/img/pre-commit-erro.png)
 
+
 ![Teste de pré-commit com sucesso](/img/pre-commit-sucesso.png)
 
 ### 3.2. Teste do hook `pre-push`
