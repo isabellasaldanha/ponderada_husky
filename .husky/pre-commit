@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Pré-commit iniciado!" >&2
+npm run build || exit 1
