@@ -1,6 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "🧪 Rodando testes..."
+echo "Rodando testes..."
 
 npm test
