@@ -31,13 +31,17 @@ Este comando cria a pasta `.husky` no repositório com os arquivos de configura�
 
 A primeira configuração de hook foi para o `pre-commit`, que executa o build do código antes de qualquer commit ser realizado.
 
-![Pré-commit](/img/code-pre-commit.png)
+<p align="center">
+  <img src="/img/code-pre-commit.png" width="300" />
+</p>
 
 ### 2.3. Adicionar o hook `pre-push`
 
 O segundo hook configurado foi o `pre-push`, que executa uma verificação adicional antes de um push ser realizado. Este comando configura o Husky para rodar os testes (`npm test`) antes de permitir que o código seja enviado para o repositório remoto.
 
-![Pré-push](/img/code-pre-push.png)
+<p align="center">
+  <img src="/img/code-pre-push.png" width="300" />
+</p>
 
 ## 3. Teste dos hooks
 
@@ -47,16 +51,21 @@ Após a configuração, foi realizado alguns testes para verificar se os hooks e
 
 Foi feito um commit para testar a execução do hook `pre-commit`. O build foi executado antes do commit ser finalizado, verificando a qualidade do código.
 
-![Teste de pré-commit com erro](/img/pre-commit-erro.png)
+<p align="center">
+  <img src="/img/pre-commit-erro.png" width="400" />
+</p>
 
-
-![Teste de pré-commit com sucesso](/img/pre-commit-sucesso.png)
+<p align="center">
+  <img src="/img/pre-commit-sucesso.png" width="400" />
+</p>
 
 ### 3.2. Teste do hook `pre-push`
 
 Após realizar o commit, um `git push` foi executado para testar o hook `pre-push`. O script de testes foi executado antes de permitir o envio do código para o repositório remoto.
 
-![Teste de pré-push](/img/pre-push.png)
+<p align="center">
+  <img src="/img/pre-push.png" width="400" />
+</p>
 
 ## 4. Conclusão
 
