@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "prepare": "husky",
-    "test": "jest",
-    "precommit-checks": "tsc --noEmit && npm run lint"
+    "test": "jest"
   },
   "dependencies": {
     "react": "^19.1.0",
